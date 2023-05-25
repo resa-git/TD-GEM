@@ -1,0 +1,219 @@
+Generator(
+  (synthesis): SynthesisNetwork(
+    (b4): SynthesisBlock(
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b8): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b16): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b32): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b64): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b128): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b256): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b512): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b1024): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+  )
+  (mapping): MappingNetwork(
+    (fc0): FullyConnectedLayer()
+    (fc1): FullyConnectedLayer()
+    (fc2): FullyConnectedLayer()
+    (fc3): FullyConnectedLayer()
+    (fc4): FullyConnectedLayer()
+    (fc5): FullyConnectedLayer()
+    (fc6): FullyConnectedLayer()
+    (fc7): FullyConnectedLayer()
+  )
+)Generator(
+  (synthesis): SynthesisNetwork(
+    (b4): SynthesisBlock(
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b8): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b16): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b32): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b64): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b128): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b256): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b512): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+    (b1024): SynthesisBlock(
+      (conv0): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (conv1): SynthesisLayer(
+        (affine): FullyConnectedLayer()
+      )
+      (torgb): ToRGBLayer(
+        (affine): FullyConnectedLayer()
+      )
+    )
+  )
+  (mapping): MappingNetwork(
+    (fc0): FullyConnectedLayer()
+    (fc1): FullyConnectedLayer()
+    (fc2): FullyConnectedLayer()
+    (fc3): FullyConnectedLayer()
+    (fc4): FullyConnectedLayer()
+    (fc5): FullyConnectedLayer()
+    (fc6): FullyConnectedLayer()
+    (fc7): FullyConnectedLayer()
+  )
+)
