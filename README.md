@@ -17,7 +17,7 @@ You can drop `dockerUserName/` if you create a local image
 # GAN Inversion
 First, please download the PTI weights: [e4e_w+.pt](https://drive.google.com/file/d/1NUfSJqLhsrU7c9PwAtlZ9xtrxhzS_6tu/view?usp=sharing) into /pti/.
 
-You can change the follwoing paramters:
+You can change the following paramters:
 
 /pti/pti_configs/hyperparameters.py:
 first_inv_type = 'w+' -> Use pretrained e4e encoder
@@ -28,6 +28,14 @@ stylegan2_ada_shhq: pretrained stylegan2-ada model for SHHQ
 ```sh
 python run_pti.py
 ```
+
+The following models are required in the "styleGAN-Human/pretrained_models" folder:
+* deeplabv3plus-xception-vocNov14_20-51-38_epoch-89.pth
+* model_VSECRWKQFQTY_multi_id.pkl
+* model_VSECRWKQFQTY_multi_id.pth  stylegan_human_v2_1024.pth
+
+Please download them from here [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_l>
+
 # Local Optimizer
 Go to the folder `OP`  
 The `opt_clip_delta.py` is used to perform image manipulation for an individual file!  
@@ -56,7 +64,14 @@ python mapper2/scripts/train.py
 ```
 The results folder can be given as an arguement `--exp_dir path_to_result`
 
-the follwoing models are required in the pretrained_models folder:
+
+The following model are required in the "pretrained_models" folder:
+* model_ir_se50.pth
+* stylegan2_1024.pth
+* stylegan2-ffhq-config-f.pt
+* stylegan_human_v2_1024.pth
+
+Please download them from here [Styleclip/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layout>#
 
 # TDGEM
  Go to
@@ -75,4 +90,11 @@ inference as
 python mapper2/scripts/inference.py
 ```
 The results folder can be given as an arguement `--exp_dir path_to_result`
+
+
+The following model are required in the "pretrained_models" folder:
+* deeplabv3plus-xception-vocNov14_20-51-38_epoch-89.pth
+* parsenet.pth
+* stylegan2_1024.pth
+Please download them from here [TDGEM/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15>
 
