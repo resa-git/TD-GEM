@@ -22,8 +22,8 @@ You can change the following paramters:<br/>
 /pti/pti_configs/hyperparameters.py: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;  first_inv_type = 'w+' -> Use pretrained e4e encoder <br/>
 /pti/pti_configs/paths_config.py: <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;  input_data_path -> path of real images<br/>
-e4e: path of e4e_w+.pt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  input_data_path: path of real images<br/>
+e4e:  path of e4e_w+.pt<br/>
 stylegan2_ada_shhq: pretrained stylegan2-ada model for SHHQ<br/>
 ```sh
 python run_pti.py
