@@ -20,7 +20,7 @@ First, please download the PTI weights: [e4e_w+.pt](https://drive.google.com/fil
 You can change the following paramters:<br/>
 
 /pti/pti_configs/hyperparameters.py: <br/>
-first_inv_type = 'w+' -> Use pretrained e4e encoder 
+first_inv_type = 'w+' -> Use pretrained e4e encoder <br/>
 /pti/pti_configs/paths_config.py: <br/>
 input_data_path: path of real images<br/>
 e4e: path of e4e_w+.pt<br/>
