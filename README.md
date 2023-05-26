@@ -12,7 +12,7 @@ Go to the Docker folder, <br/>
 `docker build -t dockerUserName/styleclip:latest .` <br/>
 
 on linux system write <br/>
-`sudo docker run  --rm -it -p 8888:8888  --gpus all -v "$(pwd)"/TDGEM_project:/home/jovyan/work dockerUserName/styleclip:latest /bin/bash` <br/>
+`sudo docker run  --rm -it -p 8888:8888  --gpus all -v "$(pwd)"/TDGEM:/home/jovyan/work dockerUserName/styleclip:latest /bin/bash` <br/>
 You can drop `dockerUserName/` if you create a local image
 # GAN Inversion
 First, please download the PTI weights: [e4e_w+.pt](https://drive.google.com/file/d/1NUfSJqLhsrU7c9PwAtlZ9xtrxhzS_6tu/view?usp=sharing) into /pti/.
