@@ -17,14 +17,14 @@ You can drop `dockerUserName/` if you create a local image
 # GAN Inversion
 First, please download the PTI weights: [e4e_w+.pt](https://drive.google.com/file/d/1NUfSJqLhsrU7c9PwAtlZ9xtrxhzS_6tu/view?usp=sharing) into /pti/.
 
-You can change the following paramters:
+You can change the following paramters:<br/>
 
-/pti/pti_configs/hyperparameters.py:
-first_inv_type = 'w+' -> Use pretrained e4e encoder
-/pti/pti_configs/paths_config.py:
-input_data_path: path of real images
-e4e: path of e4e_w+.pt
-stylegan2_ada_shhq: pretrained stylegan2-ada model for SHHQ
+/pti/pti_configs/hyperparameters.py: <br/>
+first_inv_type = 'w+' -> Use pretrained e4e encoder 
+/pti/pti_configs/paths_config.py: <br/>
+input_data_path: path of real images<br/>
+e4e: path of e4e_w+.pt<br/>
+stylegan2_ada_shhq: pretrained stylegan2-ada model for SHHQ<br/>
 ```sh
 python run_pti.py
 ```
