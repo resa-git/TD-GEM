@@ -8,7 +8,7 @@ The [code](https://github.com/resa-git/TDGEM) is available at github
 
 # Setup docker 
 ### Linux system
-Go to the Docker folder, 
+Go to the Docker folder, <br/> 
 `docker build -t dockerUserName/styleclip:latest .` <br/>
 
 on linux system write <br/>
