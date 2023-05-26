@@ -34,7 +34,7 @@ The following models are required in the "styleGAN-Human/pretrained_models" fold
 * model_VSECRWKQFQTY_multi_id.pkl
 * model_VSECRWKQFQTY_multi_id.pth  stylegan_human_v2_1024.pth
 
-Please download them from here [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_l>
+Please download them from here [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
 
 # Local Optimizer
 Go to the folder `OP`  
@@ -71,7 +71,7 @@ The following model are required in the "pretrained_models" folder:
 * stylegan2-ffhq-config-f.pt
 * stylegan_human_v2_1024.pth
 
-Please download them from here [Styleclip/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layout>#
+Please download them from here [Styleclip/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
 
 # TDGEM
  Go to
@@ -96,5 +96,5 @@ The following model are required in the "pretrained_models" folder:
 * deeplabv3plus-xception-vocNov14_20-51-38_epoch-89.pth
 * parsenet.pth
 * stylegan2_1024.pth
-Please download them from here [TDGEM/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15>
+Please download them from here [TDGEM/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
 
