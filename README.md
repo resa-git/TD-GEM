@@ -1,5 +1,11 @@
 # TD-GEM: Text-Driven Garment Editing Mapper
 ![plot](./util/front_sample1.jpg)
+> **TD-GEM: Text-Driven Garment Editing Mapper**<br>
+> Reza Dadfar, Sanaz Sabzevari, Mårten Björkman, Danica Kragic <br>
+> http://arxiv.org/abs/2305.18120 <br>
+>
+>**Abstract:** Language-based fashion image editing allows users to try out variations of desired garments through provided text prompts.
+Inspired by research on manipulating latent representations in StyleCLIP and HairCLIP, we focus on these latent spaces for editing fashion items of full-body human datasets. Currently, there is a gap in handling fashion image editing due to the complexity of garment shapes and textures and the diversity of human poses. In this paper, we propose an editing optimizer scheme method called TD-GEM, aiming to edit fashion items in a disentangled way. To this end, we initially obtain a latent representation of an image through generative adversarial network inversions such as e4e or PTI for more accurate results. An optimization-based CLIP is then utilized to guide the latent representation of a fashion image in the direction of a target attribute expressed in terms of a text prompt. Our TD-GEM manipulates the image accurately according to the target attribute, while other parts of the image are kept untouched. In the experiments, we evaluate TD-GEM on two different attributes (*i.e.,* “color" and “sleeve length"), which effectively generates realistic images compared to the recent manipulation schemes.
 
 # Updates
 The [code](https://github.com/resa-git/TDGEM) is available at github
