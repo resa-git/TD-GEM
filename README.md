@@ -40,7 +40,7 @@ The following models are required in the "styleGAN-Human/pretrained_models" fold
 * model_VSECRWKQFQTY_multi_id.pkl
 * model_VSECRWKQFQTY_multi_id.pth  stylegan_human_v2_1024.pth
 
-Please download them from [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
+Please download them from [Pre-trained Model](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
 # Local Optimizer
 Go to the folder `OP`  
@@ -77,9 +77,9 @@ The following model are required in the "pretrained_models" folder:
 * stylegan2-ffhq-config-f.pt
 * stylegan_human_v2_1024.pth
 
-Please download them from [Styleclip/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
+Please download them from [Pre-trained Model](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
-# TDGEM
+# TD-GEM
  Go to
 ```sh
 cd /home/jovyan/work/TDGEM-main
@@ -103,5 +103,5 @@ The following model are required in the "pretrained_models" folder:
 * parsenet.pth
 * stylegan2_1024.pth
 
-Please download them from [TDGEM/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
+Please download them from [Pre-trained Model](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
