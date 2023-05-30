@@ -40,7 +40,7 @@ The following models are required in the "styleGAN-Human/pretrained_models" fold
 * model_VSECRWKQFQTY_multi_id.pkl
 * model_VSECRWKQFQTY_multi_id.pth  stylegan_human_v2_1024.pth
 
-Please download them from [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
+Please download them from [styleGAN-Human/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
 # Local Optimizer
 Go to the folder `OP`  
@@ -77,7 +77,7 @@ The following model are required in the "pretrained_models" folder:
 * stylegan2-ffhq-config-f.pt
 * stylegan_human_v2_1024.pth
 
-Please download them from [Styleclip/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
+Please download them from [Styleclip/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
 # TDGEM
  Go to
@@ -103,5 +103,5 @@ The following model are required in the "pretrained_models" folder:
 * parsenet.pth
 * stylegan2_1024.pth
 
-Please download them from [TDGEM/pretrained](https://kth-my.sharepoint.com/personal/sanazsab_ug_kth_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsanazsab%5Fug%5Fkth%5Fse%2FDocuments%2FPre%2Dtrained%20Model&ga=1)
+Please download them from [TDGEM/pretrained](https://kth-my.sharepoint.com/:f:/g/personal/sanazsab_ug_kth_se/Eo1EFwRf_jdPtysc_5AmN4YBc1eM1lEH9IceG_t0RjW54w?e=Z3uJBQ)
 
